@@ -1,5 +1,7 @@
 # This project shows how to send Formdata requests to Express+Apollo server using Dio in flutter.
 
+!! Don't forget to include the <code>apollo-require-preflight: true</code> header in the request from flutter.
+
 - The steps involve:
 
 1. Use Image_Picker instance to pick an array of images.
@@ -50,3 +52,4 @@ void _chooseMultiple() async {
    print(res);
  }
 ```
+
