@@ -1,4 +1,4 @@
-#This project shows how to send Formdata requests to Express+Apollo server using Dio in flutter.
+# This project shows how to send Formdata requests to Express+Apollo server using Dio in flutter.
 
 - The steps involve:
 
@@ -14,7 +14,7 @@
 
 **The Code Looks as follows:**
 
-```
+```javascript
 void _chooseMultiple() async {
    _images = await picker.pickMultiImage();
    if (_images.isEmpty) return;
