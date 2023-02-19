@@ -16,7 +16,7 @@
 
 **The Code Looks as follows:**
 
-```javascript
+```dart
 void _chooseMultiple() async {
    _images = await picker.pickMultiImage();
    if (_images.isEmpty) return;
